@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="todo-header">
+            <h1>Todo List</h1>
+            <img src = "images/light-logo.svg" alt="book-logo" id="logo">
+        </div>
+        <div class="todo-body">
+            <input class="todo-input" type="text" placeholder="Enter your task" id="todo-text"/>
+            <button class="add-task-btn" type="submit" id="add-task" onclick="createTask()"><span>&#x2b;</span></button>
+        </div>
+        <h5 id="alert"></h5>
+        <ul id="list-items" class="list-items">
+            
+        </ul>
+        
+    </div>
+    <button id="mode-toggle" >🌙</button>
+    <script src="logic.js">
+         
+    </script>
+</body>
+</html>
